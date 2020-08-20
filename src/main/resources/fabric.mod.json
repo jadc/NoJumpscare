@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "nojumpscare",
+  "version": "${version}",
+
+  "name": "NoJumpscare",
+  "description": "Removes the Elder Guardian jumpscare effect.",
+  "authors": ["Jad Chehimi"],
+  "contact": {
+    "homepage": "https://curseforge.com/mc-mods/NoJumpscare",
+    "sources": "https://github.com/jadc/NoJumpscare"
+  },
+
+  "license": "MIT",
+  "icon": "assets/nojumpscare/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "nojumpscare.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4"
+  }
+}
